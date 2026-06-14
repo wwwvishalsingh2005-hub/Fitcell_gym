@@ -1,0 +1,13 @@
+# robots.txt — Fitcell Gym
+# https://fitcellgymaligarh.vercel.app
+
+User-agent: *
+Allow: /
+
+# Block config/server files from being indexed
+Disallow: /netlify.toml
+Disallow: /.env
+Disallow: /node_modules/
+
+# Sitemap (uncomment and update once you have one)
+# Sitemap: https://fitcellgymaligarh.vercel.app/sitemap.xml
